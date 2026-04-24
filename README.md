@@ -56,6 +56,9 @@ My Files/Apps/Wpf_template/
 └── MyApp.exe (또는 MyApp.zip)
 ```
 
+<img width="717" height="273" alt="image" src="https://github.com/user-attachments/assets/55f66a56-0651-45b5-a219-ca4e2887ec5f" />
+
+
 ### 2. update.json 작성
 
 ```json
@@ -68,6 +71,9 @@ My Files/Apps/Wpf_template/
   "changelog": "변경 내용을 여기에 작성"
 }
 ```
+
+<img width="580" height="193" alt="image" src="https://github.com/user-attachments/assets/4184c253-e604-4232-a461-c619997aed73" />
+
 
 | 필드 | 설명 |
 |---|---|
@@ -85,6 +91,10 @@ My Files/Apps/Wpf_template/
 1. OneDrive에서 파일 우클릭 → **공유**
 2. **"링크가 있는 모든 사용자"** 선택 (중요!)
 3. 링크 복사
+
+<img width="791" height="640" alt="image" src="https://github.com/user-attachments/assets/ed2ccbc2-2c32-4f78-b44a-785604da3b56" />
+
+
 
 ### 4. shareId 추출 방법
 
