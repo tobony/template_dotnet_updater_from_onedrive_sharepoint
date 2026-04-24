@@ -58,6 +58,7 @@ My Files/Apps/Wpf_template/
 
 <img width="717" height="273" alt="image" src="https://github.com/user-attachments/assets/55f66a56-0651-45b5-a219-ca4e2887ec5f" />
 
+<br><br>
 
 ### 2. update.json 작성
 
@@ -84,6 +85,8 @@ My Files/Apps/Wpf_template/
 | `mandatory` | `true`면 강제 업데이트 (나중에 버튼 비활성화) |
 | `changelog` | 업데이트 다이얼로그에 표시할 변경 내용 |
 
+<br><br>
+
 ### 3. OneDrive 공유 링크 생성
 
 각 파일(update.json, exe/zip)마다:
@@ -94,7 +97,7 @@ My Files/Apps/Wpf_template/
 
 <img width="791" height="640" alt="image" src="https://github.com/user-attachments/assets/ed2ccbc2-2c32-4f78-b44a-785604da3b56" />
 
-
+<br><br>
 
 ### 4. shareId 추출 방법
 
