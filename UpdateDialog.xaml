@@ -1,0 +1,39 @@
+<Window x:Class="MyApp.UpdateDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="업데이트 확인" Height="280" Width="420"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="TitleText" Grid.Row="0" FontSize="16" FontWeight="Bold"
+                   Text="새 버전이 있습니다" Margin="0,0,0,8"/>
+
+        <TextBlock x:Name="VersionText" Grid.Row="1" Margin="0,0,0,8"
+                   Text="1.0.0 → 1.1.0"/>
+
+        <TextBox x:Name="ChangelogText" Grid.Row="2" IsReadOnly="True"
+                 TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
+                 Margin="0,0,0,8" Text="변경 내용"/>
+
+        <ProgressBar x:Name="ProgressBar" Grid.Row="3" Height="20"
+                     Margin="0,0,0,4" Visibility="Collapsed"/>
+
+        <TextBlock x:Name="StatusText" Grid.Row="4" Margin="0,0,0,8"
+                   Text="" Foreground="Gray"/>
+
+        <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button x:Name="UpdateBtn" Content="업데이트" Width="80" Margin="0,0,8,0"
+                    Click="UpdateBtn_Click" IsDefault="True"/>
+            <Button x:Name="SkipBtn" Content="나중에" Width="80"
+                    Click="SkipBtn_Click" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>
