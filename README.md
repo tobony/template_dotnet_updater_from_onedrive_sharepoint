@@ -75,6 +75,7 @@ My Files/Apps/Wpf_template/
 
 <img width="580" height="193" alt="image" src="https://github.com/user-attachments/assets/4184c253-e604-4232-a461-c619997aed73" />
 
+<br><br>
 
 | 필드 | 설명 |
 |---|---|
