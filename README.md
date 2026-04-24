@@ -2,6 +2,10 @@
 
 OneDrive for Business를 업데이트 서버로 활용하는 WPF 앱 템플릿입니다.
 
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/873a076f-c076-4a12-9fe7-0a5b2d10a443" />
+
+
+
 ## 기능
 
 - 앱 시작 시 자동 버전 체크
